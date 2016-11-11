@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fillInText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/fillIn"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/wordsLeftText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/wordsLeft"
+        android:layout_below="@id/fillInText"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/sendWordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wordsLeftText"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:onClick="fillWithUserWord"
+        android:text="@string/sendUserWordText"
+        />
+
+    <EditText
+        android:id="@+id/userWords"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wordsLeftText"
+        android:layout_toLeftOf="@id/sendWordButton"
+        android:padding="10dp"
+        android:hint="@string/hintWord"
+        />
+
+    <TextView
+        android:id="@+id/tipText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userWords"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="@string/tipText"
+        />
+
+</RelativeLayout>

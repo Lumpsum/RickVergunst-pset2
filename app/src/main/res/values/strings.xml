@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">RickVergunst-pset2</string>
+    <string name="welcomeText">Welcome to the Mad Libs app. \n\n In this app you are asked to fill in some random words without
+    knowing the context. In the end we will put those words inside the story which could possible create hilarious stories. \n\n
+    Click the button below to get started!</string>
+    <string name="welcomeButton">Get started!</string>
+    <string name="fillIn">Fill in the words to complete the story!</string>
+    <string name="wordsLeft">word(s) left!</string>
+    <string name="sendUserWordText">OK</string>
+    <string name="tipText">Please fill in a/an </string>
+    <string name="hintWord">Placeholder</string>
+    <string name="finalTitle">Your Mad Lib Story!</string>
+    <string name="finalStory">Placeholder</string>
+    <string name="finalButton">Make Another Story</string>
 </resources>
